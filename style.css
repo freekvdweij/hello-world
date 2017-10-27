@@ -1,0 +1,121 @@
+body {
+    background: url('muziekachtergrond.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.small{
+    color: #5371b5; 
+    font-family: "Bernard MT Condensed";
+    font-size: 30pt;
+    font-weight: 300;
+}
+.big{
+    color: #5371b5; 
+    font-family: "Bernard MT Condensed";
+    font-size: 60pt;
+    font-weight: 900;
+
+}
+.box {
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+    font-size: 40px;   
+    margin-top: 17%;
+    padding: 20px ;
+    border: 5px black;
+    background-color: #5371b5 ;
+    opacity: 0.85;
+    border: 3px;
+    border-style: solid;
+}
+.whitebox {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    opacity: 0.9;
+}
+.search {
+    font-size: 30px;   
+    padding-top: 10px ; 
+    width: 300px;
+    padding-bottom: 10px;
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+.dropdown {
+    font-size: 30px;   
+    padding-top: 10px ; 
+    width: 140px;
+    height: 70px;
+    padding-bottom: 10px;
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+.button {
+    width: 200px;
+    font-size: 25px;   
+    padding-top: 10px ; 
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px ;
+    background-color: #e7e7e7; 
+    color: black;
+}
+.box2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    font-size: 40px;   
+    margin-top: 1%;
+    padding: 5px ;
+    border: 5px black;
+    background-color: #5371b5 ;
+    opacity: 0.85;
+    border: 1px;
+    border-style: solid;
+}
+.search2 {
+    font-size: 30px;   
+    padding-top: 10px ; 
+    width: 600px;
+    padding-bottom: 10px;
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+.playlist {
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #5371b5 ;
+    opacity: 0.85;
+    font-family: "Bernard MT Condensed";
+    border: 1px;
+    border-style: solid;
+}
+.description {
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: #5371b5 ;
+    opacity: 0.85;
+    font-family: "Bernard MT Condensed";
+    border: 1px;
+    border-style: solid;
+}
+#parent {
+  display: flex;
+}
+#narrow {
+  width: 450px;
+}
+#wide {
+  flex: 1;
+}
+
+
+
